@@ -15,7 +15,7 @@
 
 .Title{
   position: fixed;
-  padding-top: 120px;
+  padding-top: 80px;
   padding-left: 200px;
   left: 110px;
   top: 140px;
@@ -30,10 +30,12 @@ h1 {
 
 h3 {
 position: fixed;
-top: 200px;
+top: 180px;
 left: 180px;
-padding-top: 160px;
+padding-top: 170px;
 padding-left: 210px;
+font-size:23px;
+font-family: 'Nanum Myeongjo', serif;
 }
 .sideBarRow {
   top: 30px;
@@ -42,9 +44,13 @@ padding-left: 210px;
   padding-bottom: 30px;
   font-size: 30px;
   color: white;
+  font-family: 'Nanum Myeongjo', serif;
+
 }
 
 .sideBarRow a {
+  padding-left: 4px;
+  padding-right: 4px;
   color: white;
   text-decoration: none;
 }
@@ -79,10 +85,22 @@ padding-left: 210px;
 
 }
 
-.img{
-  max-width: 50%;
-  max-height: 50%;
+.homeimg{
+  position: fixed;
   top: 200px;
-  right: 100px;
+  left: 800px ;
+
+}
+.logoimg{
+  position:fixed;
+  top:0;
+  left: 0;
+}
+.blurb {
+  position: fixed;
+  top: 400px;
+  left: 250px;
+  right: 700px;
+  text-align: center;
 
 }
