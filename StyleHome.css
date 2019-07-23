@@ -18,7 +18,7 @@
   padding-top: 80px;
   padding-left: 200px;
   left: 110px;
-  top: 140px;
+  top: 65px;
   color: black;
   font-size: 30px
 }
@@ -30,7 +30,7 @@ h1 {
 
 h3 {
 position: fixed;
-top: 180px;
+top: 100px;
 left: 180px;
 padding-top: 170px;
 padding-left: 210px;
@@ -87,7 +87,7 @@ font-family: 'Nanum Myeongjo', serif;
 
 .homeimg{
   position: fixed;
-  top: 200px;
+  top: 150px;
   left: 800px ;
 
 }
@@ -98,7 +98,7 @@ font-family: 'Nanum Myeongjo', serif;
 }
 .blurb {
   position: fixed;
-  top: 400px;
+  top: 340px;
   left: 250px;
   right: 700px;
   text-align: center;
