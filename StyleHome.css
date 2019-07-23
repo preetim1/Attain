@@ -15,9 +15,9 @@
 
 .Title{
   position: fixed;
-  padding-top: 130px;
+  padding-top: 120px;
   padding-left: 200px;
-  left: 200px;
+  left: 110px;
   top: 140px;
   color: black;
   font-size: 30px
@@ -25,6 +25,15 @@
 
 h1 {
   letter-spacing: 14px;
+  font-size: 75px;
+}
+
+h3 {
+position: fixed;
+top: 200px;
+left: 180px;
+padding-top: 160px;
+padding-left: 210px;
 }
 .sideBarRow {
   top: 30px;
@@ -67,5 +76,13 @@ h1 {
   top: 0;
   bottom: 0;
   width: 500px;
+
+}
+
+.img{
+  max-width: 50%;
+  max-height: 50%;
+  top: 200px;
+  right: 100px;
 
 }
