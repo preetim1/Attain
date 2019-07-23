@@ -1,0 +1,50 @@
+.sideBar{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+  width: 200px;
+
+}
+
+.sideBarRow {
+  top: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+.sideBarRow a {
+  padding-left: 4px;
+  padding-right: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.sideBarRow a:hover {
+  background-color: grey;
+  border-style: hidden;
+}
+
+.sideBarRow a.active {
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  background-color: black;
+}
+
+.logoimg{
+  position:fixed;
+  top:0;
+  left: 0;
+}
+
+.get{
+  
+}
