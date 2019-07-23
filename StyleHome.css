@@ -26,23 +26,11 @@
 h1 {
   letter-spacing: 14px;
 }
-
-img.resize{
-  position: fixed;
-  max-width: 25%;
-  max-height: 25%;
-  width: 200px
-  height: auto;
-
-
-}
-
-
 .sideBarRow {
   top: 30px;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
   font-size: 30px;
   color: white;
 }
@@ -71,3 +59,13 @@ img.resize{
   background-color: black;
 
 } */
+
+.blackRightBar {
+  position: fixed;
+  background-color: black;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 500px;
+
+}
