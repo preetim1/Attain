@@ -52,45 +52,122 @@ h1 {
   padding-left: 500px;
 }
 
-.lofi{
-  padding-top:5px;
-  padding-left: 450px;
-  float: left;
+h4 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 35px;
+  letter-spacing: 5px;
+  padding-left: 240px;
 }
-.lofipic{
-  padding-left: 10px;
-  padding-top: 66px;
-  float:left;
-}
+
 .clearfix{
   clear:both;
 }
+
+.pic {
+  height: 380px;
+  width: 300px;
+  padding-left: 20px;
+}
+
+
+.playlist{
+  padding-left: 590px;
+  float: left;
+  padding-bottom: 40px;
+}
+.musicpic{
+  padding-left: 10px;
+  padding-bottom: 40px;
+  float:left;
+}
+
+hr {
+  display: block;
+  margin-top: 2px;
+  margin-bottom:20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.blurb {
+  position: absolute;
+  margin-left: 224px;
+  margin-right: 700px;
+  text-align: center;
+  font-size: 30px;
+
+}
+/*
 .white{
   padding-top:5px;
   padding-left: 450px;
+  float: left;
+  height: 380px;
 }
+.whitepic{
+  padding-left: 10px;
+  padding-top: 160px;
+  float:left;
+}
+
 
 .instrument{
   padding-top:5px;
   padding-left: 450px;
+  float: left;
 }
+.instrumentpic{
+  padding-left: 10px;
+  padding-top: 160px;
+  float:left;
+}
+
 
 .nature{
   padding-top:5px;
   padding-left: 450px;
+  float: left;
 }
+.naturepic{
+  padding-left: 10px;
+  padding-top: 160px;
+  float:left;
+}
+
 
 .piano{
   padding-top:5px;
   padding-left: 450px;
+  float: left;
 }
+.pianopic{
+  padding-left: 10px;
+  padding-top: 160px;
+  float:left;
+}
+
 
 .rain{
   padding-top:5px;
   padding-left: 450px;
+  float: left;
 }
+.rainpic{
+  padding-left: 10px;
+  padding-top: 160px;
+  float:left;
+}
+
 
 .motivate{
   padding-top:5px;
   padding-left: 450px;
+  float: left;
 }
+.motivatepic{
+  padding-left: 10px;
+  padding-top: 160px;
+  float:left;
+} */
