@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" href="AttainMap.css">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+<script src="AttainMap.js"></script>
+
+</head>
+  <body>
+<div class= "breaktitle">
+       <h1>TAKE A BREAK</h1>
+     </div>
+     <div class="sideBar">
+       <div class="sideBarRow">
+         <a href ="attainHome.html">Home</a>
+       </div>
+       <div class="sideBarRow">
+         <a href ="">Get planning</a>
+       </div>
+       <div class="sideBarRow">
+         <a class="active" href ="">Get a break</a>
+       </div>
+        <div class="sideBarRow">
+          <a href ="">Get music</a>
+        </div>
+        <div class="sideBarRow">
+          <a href ="">Get informed</a>
+        </div>
+        <div class="logoimg">
+          <img src="logoart.jpg" width="200px" heigth="auto"> </img>
+        </div>
+      </div>
+      <div class="photos">
+        <img src="break1.jpg" width="300px" height="300px" hspace="20"></img>
+        <img src="break2.jpg" width="300px" height="300px" hspace="20"></img>
+        <img src="break3.jpg" width="300px" height="300px" hspace="20"></img>
+      </div>
+      <div class="subheading">
+<h3>Take a break. Working continuoysly for long periods of time is never effective. Take second to clear your mind. Take a walk in a park, or visit your favorite coffee shop. Or grab a snack. Where ever you want to go, you can find it in the map below. </h3>
+   </div>
+
+          <input id="pac-input" class="controls" type="text" placeholder="Search for food and cafes">
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs82K9vEsMh2l0EZHPWUSR3dFa99xXEd4&libraries=places&callback=initAutocomplete"
+         async defer></script>
+
+
+
+    </body>
+
+</html>
