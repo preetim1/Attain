@@ -45,6 +45,52 @@
   left: 0;
 }
 
-.get{
-  
+h1 {
+  letter-spacing: 14px;
+  font-size: 75px;
+  padding-top: 50px;
+  padding-left: 500px;
+}
+
+.lofi{
+  padding-top:5px;
+  padding-left: 450px;
+  float: left;
+}
+.lofipic{
+  padding-left: 10px;
+  padding-top: 66px;
+  float:left;
+}
+.clearfix{
+  clear:both;
+}
+.white{
+  padding-top:5px;
+  padding-left: 450px;
+}
+
+.instrument{
+  padding-top:5px;
+  padding-left: 450px;
+}
+
+.nature{
+  padding-top:5px;
+  padding-left: 450px;
+}
+
+.piano{
+  padding-top:5px;
+  padding-left: 450px;
+}
+
+.rain{
+  padding-top:5px;
+  padding-left: 450px;
+}
+
+.motivate{
+  padding-top:5px;
+  padding-left: 450px;
 }
