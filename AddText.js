@@ -42,7 +42,7 @@ xmlRequest.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
      postText = this.responseText;
     console.log(this.responseText);
-    postString();
+    postingString();
   }
 };
 xmlRequest.open("GET", "SampleBlogPost.rtf", true);
