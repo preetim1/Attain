@@ -45,5 +45,5 @@ xmlRequest.onreadystatechange = function() {
     postingString();
   }
 };
-xmlRequest.open("GET", "SampleBlogPost.rtf", true);
+xmlRequest.open("GET", "Post.txt", true);
 xmlRequest.send();
