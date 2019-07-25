@@ -11,18 +11,35 @@
 
 }
 
+h1 {
+  letter-spacing: 14px;
+  font-size: 75px;
+}
+
+h3 {
+position: fixed;
+top: 270px;
+left: 180px;
+padding-left: 210px;
+font-size:23px;
+font-family: 'Nanum Myeongjo', serif;
+}
 .sideBarRow {
   top: 30px;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
   font-size: 30px;
   color: white;
+  font-family: 'Nanum Myeongjo', serif;
+
 }
 
 .sideBarRow a {
   padding-left: 4px;
   padding-right: 4px;
+  padding-bottom: 4px;
+  padding-top: 4px;
   color: white;
   text-decoration: none;
 }
@@ -38,6 +55,7 @@
   border-style: solid;
   background-color: black;
 }
+
 
 .logoimg{
   position:fixed;
@@ -71,12 +89,14 @@ h4 {
 
 
 .playlist{
-  padding-left: 590px;
+  padding-top:2px;
+  padding-left: 690px;
   float: left;
   padding-bottom: 40px;
 }
 .musicpic{
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-top: 2px;
   padding-bottom: 40px;
   float:left;
 }
@@ -93,81 +113,9 @@ hr {
 
 .blurb {
   position: absolute;
-  margin-left: 224px;
-  margin-right: 700px;
+  margin-left: 240px;
+  margin-right: 800px;
   text-align: center;
   font-size: 30px;
 
 }
-/*
-.white{
-  padding-top:5px;
-  padding-left: 450px;
-  float: left;
-  height: 380px;
-}
-.whitepic{
-  padding-left: 10px;
-  padding-top: 160px;
-  float:left;
-}
-
-
-.instrument{
-  padding-top:5px;
-  padding-left: 450px;
-  float: left;
-}
-.instrumentpic{
-  padding-left: 10px;
-  padding-top: 160px;
-  float:left;
-}
-
-
-.nature{
-  padding-top:5px;
-  padding-left: 450px;
-  float: left;
-}
-.naturepic{
-  padding-left: 10px;
-  padding-top: 160px;
-  float:left;
-}
-
-
-.piano{
-  padding-top:5px;
-  padding-left: 450px;
-  float: left;
-}
-.pianopic{
-  padding-left: 10px;
-  padding-top: 160px;
-  float:left;
-}
-
-
-.rain{
-  padding-top:5px;
-  padding-left: 450px;
-  float: left;
-}
-.rainpic{
-  padding-left: 10px;
-  padding-top: 160px;
-  float:left;
-}
-
-
-.motivate{
-  padding-top:5px;
-  padding-left: 450px;
-  float: left;
-}
-.motivatepic{
-  padding-left: 10px;
-  padding-top: 160px;
-  float:left;
-} */
