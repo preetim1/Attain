@@ -15,7 +15,7 @@ var postText = `
 
 function postingString() {
 var postRawHtml = `
-<div class="post">
+<div class="blog-post">
   <h2>${title}</h2>
   ${postText}
 </div>`;
@@ -42,6 +42,7 @@ xmlRequest.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
      postText = this.responseText;
     console.log(this.responseText);
+    postText = postText.replace(/\n/g, "<br>");
     postingString();
   }
 };
