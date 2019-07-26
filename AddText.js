@@ -1,7 +1,7 @@
 
 //These values will be used to make the new post.
 var title = "What's In My Pencil Case";
-var image = "Blog-Post.jpg";
+var image = "Blog-Post1.jpg";
 //Use the ` character to make a string on multiple lines.
 //I recommend including the <p> tags in the post text variable
 //because different posts may have different numbers of paragraphs.
@@ -15,7 +15,7 @@ var postText = `
 
 function postingString() {
 var postRawHtml = `
-<div id="blog-post">
+<div class="blog-post">
   <h6>${title}</h6>
   ${postText}
   <img src="${image}"></img>
@@ -33,7 +33,7 @@ var postHtmlObject = document.createRange().createContextualFragment(postRawHtml
 //fragment), not just a string.
 
 //We can append it directly to an object already in the document.
-var blogContainer = document.getElementById("blog-post");
+var blogContainer = document.getElementById("blogPosts");
 blogContainer.appendChild(postHtmlObject);
 
 }
