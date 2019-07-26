@@ -144,7 +144,7 @@ h5 {
 .blog-post{
   display: flex;
   flex-direction: row;
-  padding-left: 300px;
+  left: 300px;
 }
 
 }
