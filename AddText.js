@@ -1,7 +1,7 @@
 
 //These values will be used to make the new post.
 var title = "What's In My Pencil Case";
-// var image = "placeholder2.jpg";
+var image = "Blog-Post.jpg";
 //Use the ` character to make a string on multiple lines.
 //I recommend including the <p> tags in the post text variable
 //because different posts may have different numbers of paragraphs.
@@ -15,11 +15,12 @@ var postText = `
 
 function postingString() {
 var postRawHtml = `
-<div class="blog-post">
-  <h2>${title}</h2>
+<div id="blog-post">
+  <h6>${title}</h6>
   ${postText}
-</div>`;
-// <img src="${image}"></img>
+  <img src="${image}"></img>
+</div>` ;
+
 
 //Check the console to verify that this string is what we want.
 //(You don't want to do this in the final version, it's just to test.)
