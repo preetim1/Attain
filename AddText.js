@@ -15,12 +15,11 @@ var postText = `
 
 function postingString() {
 var postRawHtml = `
-<div id="blog-post">
-  <h6>${title}</h6>
+<div class="blog-post">
+  <h2>${title}</h2>
   ${postText}
-  <img src="${image}"></img>
-</div>` ;
-
+</div>`;
+// <img src="${image}"></img>
 
 //Check the console to verify that this string is what we want.
 //(You don't want to do this in the final version, it's just to test.)
