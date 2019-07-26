@@ -17,6 +17,7 @@ function postingString() {
 var postRawHtml = `
 <div class="blog-post">
   <h6>${title}</h6>
+  <hr>
   ${postText}
 <div class="lofi">
   <img src="${image}"></img>
