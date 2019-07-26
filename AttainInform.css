@@ -144,7 +144,7 @@ h5 {
 .blog-post{
   display: flex;
   flex-direction: row;
-  left: 300px;
+  padding-left: 300px;
 }
 
 }
@@ -152,10 +152,4 @@ h5 {
   padding-top:5px;
   padding-left: 450px;
   right: 500px;
-}
-
-.lofiImg {
-  display: flex;
-  flex-direction: row;
-  left: 200px;
 }
