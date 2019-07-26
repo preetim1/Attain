@@ -40,7 +40,7 @@ blogContainer.appendChild(postHtmlObject);
 var xmlRequest = new XMLHttpRequest();
 xmlRequest.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-     postText = this.responseText;
+    postText = this.responseText;
     console.log(this.responseText);
     postText = postText.replace(/\n/g, "<br>");
     postingString();
