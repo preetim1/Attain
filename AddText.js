@@ -18,7 +18,9 @@ var postRawHtml = `
 <div class="blog-post">
   <h6>${title}</h6>
   ${postText}
+<div class="lofi">
   <img src="${image}"></img>
+</div>
 </div>` ;
 
 
