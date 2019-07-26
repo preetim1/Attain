@@ -15,9 +15,8 @@
 
 .Title{
   position: fixed;
-  padding-top: 80px;
   left: 310px;
-  top: 65px;
+  top: 150px;
   color: black;
   font-size: 40px;
 }
@@ -28,12 +27,13 @@ h1 {
 }
 
 h3 {
-position: fixed;
+position: absolute;
 top: 270px;
-left: 180px;
-padding-left: 210px;
+left: 390px;
 font-size:23px;
 font-family: 'Nanum Myeongjo', serif;
+white-space: nowrap;
+
 }
 .sideBarRow {
   top: 30px;
@@ -76,17 +76,17 @@ font-family: 'Nanum Myeongjo', serif;
 } */
 
 .blackRightBar {
-  position: fixed;
+  position: absolute;
   background-color: black;
-  right: 0;
+  left:850px;
   top: 0;
   bottom: 0;
-  width: 500px;
+  right: 0;
 
 }
 
 .homeimg{
-  position: fixed;
+  position: absolute;
   top: 130px;
   left: 800px ;
 
@@ -100,8 +100,11 @@ font-family: 'Nanum Myeongjo', serif;
   position: fixed;
   top: 310px;
   left: 250px;
-  right: 700px;
+  width: 500px;
   text-align: center;
   padding-top: 10px;
   font-size: 18px;
+  overflow:visible;
+  text-overflow: ellipsis;
+
 }
