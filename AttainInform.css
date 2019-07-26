@@ -8,7 +8,6 @@ h2 {
 h3 {
  font-size: 30px;
  text-align: center;
- padding-right: 100px;
  font-family: 'Nanum Myeongjo', serif;
 }
 .middleAuthor{
@@ -36,14 +35,10 @@ h5{
 
 
 .tip{
-  padding-right: 100px;
 }
 
 p {
-  padding-left: 400px;
-  padding-right: 80px;
   font-size: 15px;
-
 }
 
 img {
@@ -51,9 +46,11 @@ img {
 }
 
 h6 {
-  padding-top: 100px;
   font-size: 25px;
   text-align: center;
+  margin-top: 0;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 
@@ -124,15 +121,30 @@ h6 {
 
 .lofi{
   padding-top:5px;
-  padding-left: 400px;
+  padding-left: 25px;
   padding-right: 80px;
   padding-bottom: 100px;
   float: left;
 }
 
-.lofiImg{
+.blogPostText {
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.blogPostText > h3 {
+  margin-top: 0;
+}
+
+h5 {
+  text-align: center;
+}
+
+.blog-post{
   display: flex;
   flex-direction: row;
+  padding-left: 300px;
 }
 
 }
@@ -140,9 +152,4 @@ h6 {
   padding-top:5px;
   padding-left: 450px;
   right: 500px;
-}
-
-
-.colimg{
-  width: 20px;
 }
