@@ -2,39 +2,41 @@
 
 .sideBar{
   padding-top: 150px;
-  padding-bottom: 150px;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
-  bottom: 0px;
+  bottom: 0;
   background-color: black;
   color: white;
   width: 200px;
+  height: fill;
 
 }
 
 .breaktitle{
-  position: absolute;
-  padding-top: 150px;
-  padding-left: 150px;
-  left: 275px;
-  top: 160px;
-  color: black;
-  font-size: 75px;
-  align: fill;
+
+
 }
 
 h1 {
+  position: absolute;
   letter-spacing: 14px;
   font-size: 75px;
+  margin-left: 425px;
+  margin-right:225px;
+  width: auto;
+  top: 310px;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+
+
 }
 
 h3 {
 position: absolute;
-top: 275px;
-left: 150px;
-padding-top: 170px;
-padding-left: 210px;
+top: 445px;
+left: 360px;
 font-size:23px;
 font-family: 'Nanum Myeongjo', serif;
 text-align: center;
@@ -94,7 +96,7 @@ width: 900px;
 
 }
 .logoimg{
-  position:fixed;
+  position:absolute;
   top:0;
   left: 0;
 }
@@ -115,9 +117,12 @@ width: 900px;
  * element that contains the map. */
 #map {
   height: 800px;
-  width: 1000px;
   top: 250px;
-  left: 300px;
+  margin-left: 300px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  align-content: center;
+  width: 1000px;
 
 }
 /* Optional: Makes the sample page fill the window. */
@@ -201,7 +206,12 @@ html, body {
   width: 345px;
 }
 .photos {
-  margin-left: 290px;
+  margin-left: 280px;
+  margin-right: 100px;
   margin-top: 40px;
+  overflow-x: visible;
+  white-space: nowrap;
+  height: 300px;
+
 
 }
