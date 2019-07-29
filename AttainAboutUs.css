@@ -82,9 +82,11 @@ h6 {
   top: 30px;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
   font-size: 30px;
   color: white;
+  font-family: 'Nanum Myeongjo', serif;
+
 }
 
 .sideBarRow a {
