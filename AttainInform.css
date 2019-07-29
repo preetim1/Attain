@@ -62,7 +62,7 @@ h6 {
 .sideBar{
   padding-top: 150px;
   padding-bottom: 150px;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   bottom: 0px;
@@ -70,20 +70,27 @@ h6 {
   color: white;
   width: 200px;
 
+
 }
+
+
 
 .sideBarRow {
   top: 30px;
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
   font-size: 30px;
   color: white;
+  font-family: 'Nanum Myeongjo', serif;
+
 }
 
 .sideBarRow a {
   padding-left: 4px;
   padding-right: 4px;
+  padding-bottom: 4px;
+  padding-top: 4px;
   color: white;
   text-decoration: none;
 }
@@ -102,7 +109,7 @@ h6 {
 
 
 .logoimg{
-  position:fixed;
+  position:absolute;
   top:0;
   left: 0;
 }

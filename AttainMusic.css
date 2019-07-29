@@ -1,19 +1,36 @@
 .sideBar{
   padding-top: 150px;
   padding-bottom: 150px;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   bottom: 0px;
   background-color: black;
   color: white;
   width: 200px;
-
 }
+
+
+  .extend {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    width: 200px;
+
+  }
+
+
 
 h1 {
   letter-spacing: 14px;
   font-size: 75px;
+  white-space: nowrap;
+
 }
 
 h3 {
@@ -58,7 +75,7 @@ font-family: 'Nanum Myeongjo', serif;
 
 
 .logoimg{
-  position:fixed;
+  position:absolute;
   top:0;
   left: 0;
 }
@@ -75,6 +92,8 @@ h4 {
   font-size: 35px;
   letter-spacing: 5px;
   padding-left: 240px;
+  white-space: nowrap;
+
 }
 
 .clearfix{
@@ -93,6 +112,9 @@ h4 {
   padding-left: 690px;
   float: left;
   padding-bottom: 40px;
+  overflow: scroll;
+  white-space: nowrap;
+
 }
 .musicpic{
   padding-left: 20px;
@@ -109,13 +131,19 @@ hr {
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
+  min-width: 1350px;
+  overflow: hidden;
+
+
+
 }
 
 .blurb {
   position: absolute;
   margin-left: 240px;
-  margin-right: 800px;
   text-align: center;
   font-size: 30px;
+  max-width: 400px;
+  min-width: 300px;
 
 }
