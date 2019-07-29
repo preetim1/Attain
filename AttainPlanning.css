@@ -1,6 +1,10 @@
+.everything{
+  margin-left: 200px;
+}
+
+
 .Heading {
-position: absolute;
-left: 300px;
+margin-left: 100px;
 top: 0px;
 right: 50px;
 text-align: center;
@@ -9,19 +13,14 @@ letter-spacing: 14px;
 }
 
 .planningblurb{
-  position: absolute;
   text-align: center;
   font-size: 22px;
   font-family: 'Nanum Myeongjo', serif;
-  top: 115px;
-  padding-top: 8px;
-  padding-right: 20px;
-  left: 543px;
-  right: 280px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .monthlyCalenders {
-  position: absolute;
   font-family: 'Nanum Myeongjo', serif;
   top: 300px;
   left: 240px;
@@ -31,34 +30,79 @@ letter-spacing: 14px;
   letter-spacing: 2px;
   font-size: 20px;
 }
-
+.monthlyCalendersBox {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
 .monthlyPDF {
-  position: absolute;
   top: 400px;
-  left: 300px;
+  left: 200px;
   padding-left: 30px;
   padding-bottom: 20px;
+  flex-direction: row;
 }
 .monthpdf{
-  position: absolute;
   height: 500px;
-  width: 500px;
+  width: auto;
+}
+.monthpdf2{
+  height: 500px;
+  width: auto;
+}
+.monthlyPDF2 {
+  top: 400px;
+  left: 500px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  flex-direction: row;
+
+}
+.monthpdf3{
+  height: 500px;
+  width: auto;
+}
+.monthlyPDF3{
+  top: 400px;
+  left: 825px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.monthpdf4{
+  height: 500px;
+  width: auto;
+}
+.monthlyPDF4{
+  top: 400px;
+  left: 1150px;
+  padding-left: 50px;
+  padding-bottom: 20px;
 }
 
+.monthpdf5{
+  height: 500px;
+  width: auto;
+}
 .weekpdf{
-  position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: auto;
   top:1040px;
   left: 300px;
-  padding-left: 30px;
   padding-bottom: 20px;
 
 }
+
+.weeklyPlannersBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .weekpdf2{
-  position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 500;
   top:1040px;
   left: 800px;
   padding-left: 30px;
@@ -66,17 +110,24 @@ letter-spacing: 14px;
 
 }
 .pdfEditor{
-  position: absolute;
-  top: 374px;
-  left: 800px;
-  padding-left: 150px;
-  padding-right: 100px;
-  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom:5px;
+  text-align: center;
+  padding-left: 50px;
+  font-size: 20px;
+  right: 0px;
 
 }
 
+
+
+.week {
+  top: 500px;
+  padding-top: 100px;
+}
 .weeklyPlanners {
-  position: absolute;
   font-family: 'Nanum Myeongjo', serif;
   padding-left: 30px;
   padding-bottom: 20px;
@@ -85,10 +136,23 @@ letter-spacing: 14px;
   top: 950px;
   right: 75px;
   font-size: 20px;
+  margin-bottom:
 }
 
+
+.dailyPlannersBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.dailypdf{
+  height: 300px;
+  width: auto;
+}
 .dailyPlanners {
-  position: absolute;
   font-family: 'Nanum Myeongjo', serif;
   padding-left: 30px;
   padding-bottom: 20px;
@@ -97,6 +161,28 @@ letter-spacing: 14px;
   top: 2000px;
   right: 25px;
   font-size: 20px;
+}
+
+
+.MiscBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+.MISC{
+  font-family: 'Nanum Myeongjo', serif;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 20px;
+
+}
+
+.sleeptrackpdf {
+  height: 500px;
+  width: auto;
 }
 
 .sideBar{
@@ -149,4 +235,15 @@ letter-spacing: 14px;
   position:fixed;
   top:0;
   left: 0;
+}
+
+
+
+
+
+hr{
+  border-width: 1px;
+  display: block;
+
+
 }
