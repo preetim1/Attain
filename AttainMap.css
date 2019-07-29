@@ -25,7 +25,7 @@ h1 {
   margin-left: 425px;
   margin-right:225px;
   width: auto;
-  top: 310px;
+  top: 230px;
   color: black;
   overflow: hidden;
   white-space: nowrap;
@@ -35,7 +35,7 @@ h1 {
 
 h3 {
 position: absolute;
-top: 445px;
+top: 360px;
 left: 360px;
 font-size:23px;
 font-family: 'Nanum Myeongjo', serif;
@@ -117,7 +117,7 @@ width: 900px;
  * element that contains the map. */
 #map {
   height: 800px;
-  top: 250px;
+  top: 150px;
   margin-left: 300px;
   margin-right: 100px;
   margin-bottom: 50px;
@@ -206,8 +206,7 @@ html, body {
   width: 345px;
 }
 .photos {
-  margin-left: 280px;
-  margin-right: 100px;
+  margin-left: 320px;
   margin-top: 40px;
   overflow-x: visible;
   white-space: nowrap;
