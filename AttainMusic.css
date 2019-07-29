@@ -1,7 +1,7 @@
 .sideBar{
   padding-top: 150px;
   padding-bottom: 150px;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   bottom: 0px;
@@ -75,7 +75,7 @@ font-family: 'Nanum Myeongjo', serif;
 
 
 .logoimg{
-  position:absolute;
+  position:fixed;
   top:0;
   left: 0;
 }

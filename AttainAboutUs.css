@@ -3,6 +3,7 @@ h2 {
   font-size: 40px;
   padding-top: 20px;
   padding-left: 370px;
+  white-space: nowrap;
 }
 
 h3 {
@@ -10,6 +11,8 @@ h3 {
  text-align: center;
  padding-right: 100px;
  font-family: 'Nanum Myeongjo', serif;
+ white-space: nowrap;
+
 }
 .middleAuthor{
   padding-top: 10px;
@@ -19,6 +22,7 @@ h3 {
   color: black;
   font-size: 40px;
   font-family: 'Nanum Myeongjo', serif;
+  
 }
 .big {
   font-size: 20px;
