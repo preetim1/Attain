@@ -3,6 +3,10 @@ h2 {
   font-size: 40px;
   padding-top: 20px;
   padding-left: 370px;
+  max-width: 1500px;
+  white-space: nowrap;
+
+
 }
 
 h3 {
@@ -10,6 +14,17 @@ h3 {
  text-align: center;
  padding-right: 100px;
  font-family: 'Nanum Myeongjo', serif;
+ max-width: 1600px;
+ white-space: nowrap;
+
+
+}
+
+
+.photoss{
+
+  width: 500px;
+
 }
 .middleAuthor{
   padding-top: 50px;
@@ -25,12 +40,20 @@ h4{
   font-size: 25px;
   text-align: center;
   font-family: 'Nanum Myeongjo', serif;
+  max-width: 1600px;
+  white-space: nowrap;
+
+
 
   }
 
 h5{
   font-size: 20px;
   font-family: 'Nanum Myeongjo', serif;
+  text-align:center;
+  max-width: 1500px;
+  white-space: nowrap;
+
 
 }
 
@@ -43,6 +66,8 @@ p {
   padding-left: 400px;
   padding-right: 80px;
   font-size: 15px;
+  min-width: 900px;
+  max-width: 1300px;
 
 }
 
@@ -83,7 +108,9 @@ h6 {
   left: 500px;
   top: 65px;
   color: black;
-  font-size: 75px
+  font-size: 75px;
+  white-space: nowrap;
+
 }
 
 .lofi{
@@ -143,4 +170,34 @@ h6 {
   position:fixed;
   top:0;
   left: 0;
+}
+
+
+
+
+#tip1{
+  height: 400px;
+  padding-bottom: 100px
+}
+
+
+
+
+#tip2{
+  height: 400px;
+  /* padding-bottom:100px; */
+
+}
+
+#tipp{
+  height: 500px;
+  padding-bottom:200px;
+
+}
+
+
+#tip3{
+  height: 400px;
+  padding-bottom:100px;
+
 }
