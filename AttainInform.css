@@ -3,12 +3,12 @@ h2 {
   font-size: 40px;
   padding-top: 20px;
   padding-left: 370px;
-  white-space: nowrap;
 }
 
 h3 {
  font-size: 30px;
  text-align: center;
+ padding-right: 100px;
  font-family: 'Nanum Myeongjo', serif;
 }
 .middleAuthor{
@@ -31,18 +31,18 @@ h4{
 h5{
   font-size: 20px;
   font-family: 'Nanum Myeongjo', serif;
-  overflow:scroll;
 
 }
 
 
 .tip{
+  padding-right: 100px;
 }
 
 p {
+  padding-left: 400px;
+  padding-right: 80px;
   font-size: 15px;
-  min-width: 450px;
-  max-width: 500px;
 
 }
 
@@ -51,18 +51,16 @@ img {
 }
 
 h6 {
+  padding-top: 100px;
   font-size: 25px;
   text-align: center;
-  margin-top: 0;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 
 
 .sideBar{
   padding-top: 150px;
   padding-bottom: 150px;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   bottom: 0px;
@@ -70,11 +68,44 @@ h6 {
   color: white;
   width: 200px;
 
+}
 
+.instrument{
+  padding-top:5px;
+  padding-left: 400px;
 }
 
 
+.Title{
 
+  padding-top: 110px;
+  padding-left: 500px;
+  left: 500px;
+  top: 65px;
+  color: black;
+  font-size: 75px
+}
+
+.lofi{
+  padding-top:5px;
+  padding-left: 400px;
+  padding-right: 80px;
+  padding-bottom: 100px;
+  float: left;
+}
+
+
+}
+.white{
+  padding-top:5px;
+  padding-left: 450px;
+  right: 500px;
+}
+
+
+.colimg{
+  width: 20px;
+}
 .sideBarRow {
   top: 30px;
   text-align: center;
@@ -109,64 +140,7 @@ h6 {
 
 
 .logoimg{
-  position:absolute;
+  position:fixed;
   top:0;
   left: 0;
-}
-
-}
-.instrument{
-  padding-top:5px;
-  padding-left: 400px;
-}
-
-
-.Title{
-
-  padding-top: 110px;
-  padding-left: 500px;
-  left: 500px;
-  top: 65px;
-  color: black;
-  font-size: 75px;
-  white-space: nowrap;
-
-}
-
-.lofi{
-  padding-top:5px;
-  padding-left: 25px;
-  padding-right: 80px;
-  padding-bottom: 100px;
-  float: left;
-}
-
-.blogPostText {
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-
-.blogPostText > h3 {
-  margin-top: 0;
-}
-
-h5 {
-  text-align: center;
-}
-
-#blogPosts {
-  padding-left: 300px;
-}
-
-.blog-post{
-  display: flex;
-  flex-direction: row;
-}
-
-}
-.white{
-  padding-top:5px;
-  padding-left: 450px;
-  right: 500px;
 }
