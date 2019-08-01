@@ -15,17 +15,35 @@ h3 {
  width: 300px;
 
 }
-.middleAuthor{
-  padding-top: 10px;
-  padding-left: 525px;
-  left: 500px;
-  top: 65px;
-  color: black;
-  font-size: 40px;
-  font-family: 'Nanum Myeongjo', serif;
-  white-space: nowrap;
 
+.attainem > p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+  padding: 0px;
+  margin-left: 200px;
 }
+
+.attainem > a{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+  padding: 0px;
+  margin-left: 200px;
+}
+
+/* .attainEmail{
+  text-align: center;
+  /* left: 20px; */
+  /* right: 400px; */
+  /* color: black;
+  font-size: 25px;
+  font-family: 'Nanum Myeongjo', serif;
+} */
+
+
 .big {
   font-size: 20px;
 }
@@ -152,8 +170,6 @@ h6 {
 
 
 .Title{
-
-  padding-top: 110px;
   padding-left: 600px;
   left: 500px;
   top: 65px;
